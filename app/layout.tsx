@@ -9,8 +9,8 @@ const hanja = Noto_Serif_KR({ weight: ["500", "700"], subsets: ["latin"], variab
 const hand = Nanum_Brush_Script({ weight: "400", subsets: ["latin"], variable: "--font-hand", display: "swap", preload: false });
 
 export const metadata: Metadata = {
-  title: "冥府錄 — 주식회사 저승성",
-  description: "이승과 저승이 함께 있는 세계, 염라대왕이 다스리는 주식회사 저승성의 조직도와 사원 명부",
+  title: "주식회사 저승성",
+  description: "이승과 저승이 함께 있는 세계, 염라대왕이 다스리는 주식회사 저승성으로.",
 };
 
 export const viewport: Viewport = {

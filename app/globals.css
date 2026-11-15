@@ -95,9 +95,9 @@ button{font:inherit;color:inherit}
 /* 문 여섯 개: 원본 1.5pt → 1.2pt. 해(1.6pt)·달(1.875pt)보다 얇게 */
 .emblem .door,.emblem .gate{stroke-width:5px}
 .emblem .door,.emblem .sky{stroke:var(--gold-hi)}
-.emblem .gate{stroke:var(--gold-hi);fill:var(--gold-hi);filter:drop-shadow(0 0 5px rgba(230,207,147,.45))}
+.emblem .gate{stroke:var(--gold-hi);fill:var(--gold-hi);}
 .map-fig figcaption{color:var(--silver);font-size:14px;text-align:center;max-width:36em}
-.title-col{writing-mode:vertical-rl;display:flex;flex-direction:column;gap:14px;min-height:280px;order:-1;margin:0 auto}
+.title-col{writing-mode:vertical-rl;display:flex;flex-direction:column;gap:8px;min-height:280px;order:-1;margin:0 auto}
 .title-col h1{
   font-family:var(--hanja);font-weight:700;font-size:64px;
   line-height:1;letter-spacing:.14em;color:var(--gold-hi);text-shadow:0 0 22px rgba(230,207,147,.18);

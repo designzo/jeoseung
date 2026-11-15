@@ -25,8 +25,8 @@ export type Character = {
 
 export const CHARACTERS: Character[] = [
   { name: "백령", rank: "도차사",   cohort: 1,   quote: "인생이란 게 참 덧없어서.",      image: "/img/characters/myaah_grain1.png", link: "https://t.melting.chat/50c7pd2?sh=NqVYW2hepm8YNtW5HV9B6A", suno: "https://suno.com/song/5e542e0d-d4d3-43ca-911c-d7ca280fdb26?sh=qp8Gp9bJVK7q54Qt" },
-  { name: "서이연", rank: "사령",     cohort: 41,  quote: "호출은 한 번만 한다.",              image: "", link: "#", suno: "" },
-  { name: "강도윤", rank: "사령",     cohort: 44,  quote: "명부에 없는 이름은 없어.",          image: "", link: "#", suno: "" },
+  { name: "화담", rank: "사령",     cohort: 14,  quote: "그리 노려보지 말게나. 귀엽지만 자꾸 놀리고 싶어지니.",              image: "/img/characters/luna_grain.png", link: "https://t.melting.chat/wzw1b4s?sh=hQnZagkXdoRyPBTgDFasBA", suno: "https://suno.com/s/YIoiWgmlKOP567UV" },
+  { name: "종하", rank: "저승사자",     cohort: 80,  quote: "나의 성부, 나의 성자, 나의 성령. 나의 사랑님.",          image: "/img/characters/filter_jongha.png", link: "https://t.melting.chat/5lgo5ay?sh=xLvKsmKrgMnti7bK9FpJ4g#", suno: "https://suno.com/s/BKwC108mW12zvVFL" },
   { name: "한겨울", rank: "저승사자", cohort: 212, quote: "이번 달도 무급이면 나 그만둔다.",    image: "", link: "#", suno: "" },
   { name: "차온",   rank: "저승사자", cohort: 215, quote: "가실 길은 제가 압니다. 따라오세요.", image: "", link: "#", suno: "" },
   { name: "문새벽", rank: "저승사자", cohort: 219, quote: "",                                  image: "", link: "#", suno: "" },

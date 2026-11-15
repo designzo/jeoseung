@@ -31,9 +31,6 @@ export default function SiteHeader() {
     <header className="top">
       <div className="wrap">
         <a className="brand" href="#">
-          <svg aria-hidden="true">
-            <use href="#gat" />
-          </svg>
           주식회사 저승성
         </a>
         <BgmPlayer />
