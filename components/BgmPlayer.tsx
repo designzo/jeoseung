@@ -38,7 +38,7 @@ export default function BgmPlayer() {
     const load = (n: number) => {
       i = (n + PLAYLIST.length) % PLAYLIST.length;
       switching = true;
-      audio.src = PLAYLIST[i].src;
+      audio.src = PLAYLIST[i].src.normalize("NFC"); // 맥 Finder에서 복사한 한글(자모 분리형)도 실제 파일 이름과 맞춘다
       setTitle(PLAYLIST[i].title);
       if ("mediaSession" in navigator && "MediaMetadata" in window) {
         navigator.mediaSession.metadata = new MediaMetadata({ title: PLAYLIST[i].title, artist: "주식회사 저승성" });
