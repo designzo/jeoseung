@@ -4,8 +4,8 @@
 export type Track = { title: string; src: string };
 
 export const PLAYLIST: Track[] = [
-  { title: "배경음악 1", src: "/audio/bgm-1.mp3" },
-  { title: "배경음악 2", src: "/audio/bgm-2.mp3" },
-  { title: "배경음악 3", src: "/audio/bgm-3.mp3" },
-  { title: "배경음악 4", src: "/audio/bgm-4.mp3" },
+  { title: "배경음악 1", src: "/audio/명계개문.mp3" },
+  { title: "배경음악 2", src: "/audio/주어진 자리.mp3" },
+  { title: "배경음악 3", src: "/audio/저승성은 오늘도.mp3" },
+  { title: "배경음악 4", src: "/audio/협상.mp3" },
 ];
