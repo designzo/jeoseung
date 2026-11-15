@@ -24,7 +24,7 @@ export type Character = {
 };
 
 export const CHARACTERS: Character[] = [
-  { name: "백무현", rank: "도차사",   cohort: 3,   quote: "부르면 와. 이유는 묻지 말고.",      image: "", link: "#", suno: "" },
+  { name: "백령", rank: "도차사",   cohort: 1,   quote: "인생이란 게 참 덧없어서.",      image: "/img/characters/myaah_grain1.png", link: "https://t.melting.chat/50c7pd2?sh=NqVYW2hepm8YNtW5HV9B6A", suno: "https://suno.com/song/5e542e0d-d4d3-43ca-911c-d7ca280fdb26?sh=qp8Gp9bJVK7q54Qt" },
   { name: "서이연", rank: "사령",     cohort: 41,  quote: "호출은 한 번만 한다.",              image: "", link: "#", suno: "" },
   { name: "강도윤", rank: "사령",     cohort: 44,  quote: "명부에 없는 이름은 없어.",          image: "", link: "#", suno: "" },
   { name: "한겨울", rank: "저승사자", cohort: 212, quote: "이번 달도 무급이면 나 그만둔다.",    image: "", link: "#", suno: "" },
